@@ -10,7 +10,7 @@ type DefaultDivType = DetailedHTMLProps<
   HTMLDivElement
 >
 
-type Props = DefaultDivType & {
+export type SelectProps = DefaultDivType & {
   // children:JSX.Element[]|JSX.Element
   children?: ReturnType<typeof Option>[] | ReturnType<typeof Option>
   // children:React.ReactNode

@@ -16,7 +16,6 @@ export const Clock = (props: Props) => {
   }, [])
 
   const stringDate = date.toLocaleTimeString()
-
   return (
     <div>
       <h2 style={{ color: '#bc5205', fontSize: '50px' }}>{stringDate}</h2>
