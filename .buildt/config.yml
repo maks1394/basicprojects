@@ -1,0 +1,9 @@
+name: basic-projects
+safe: true
+language: TypeScript
+extensions:
+  - .ts
+  - .cts
+  - .mts
+  - .tsx
+packageManager: Yarn

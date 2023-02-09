@@ -9,10 +9,9 @@ type RatingPropsType = {
 }
 
 export const Rating = (props:RatingPropsType)=>{
-
     const mappedStars:(n:StarType)=>JSX.Element[]=(n)=>{
         return [...Array(5)].map((_,i)=>{
-            return <Star selected={i<n} setRatingValue={()=>{props.setRatingValue(i+1) }} key={i}>Star </Star>
+             return <Star selected={i<n} setRatingValue={()=>{props.setRatingValue(i+1) }} key={i}>Star </Star>
         });
     }
     return(

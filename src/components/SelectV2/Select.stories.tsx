@@ -23,13 +23,15 @@ export const WithoutValue = () => {
     const [value, setValue] = useState(undefined)
     const items = [
         {value: '1', title: "Milk"},
-        {value: '2', title: "Juice"}
+        {value: '2', title: "Juice"},
+        {value: '3', title: "LOOOOOOOOOL"}
     ]
     return (
         <>
             <select>
                 <option value="1">1</option>
                 <option value="2">2</option>
+                <option value="3">LOOOOOOOOOL</option>
             </select>
             <Select value={value} items={items} onChange={setValue}/>
         </>
